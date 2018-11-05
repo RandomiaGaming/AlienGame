@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{DEAD021F-F1C9-DA22-C1EB-BC2048992AD8}</ProjectGuid>
+    <ProjectGuid>{EA54FD50-0F74-450C-93C4-218A3C0D1CD5}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,6 +64,7 @@
     <Compile Include="Assets\CamFollower.cs" />
     <Compile Include="Assets\Enemy.cs" />
     <Compile Include="Assets\EnemyMovement.cs" />
+    <Compile Include="Assets\Fireball.cs" />
     <Compile Include="Assets\flyingEnemy.cs" />
     <Compile Include="Assets\Ghost.cs" />
     <Compile Include="Assets\Goal.cs" />
@@ -87,16 +88,16 @@
     <None Include="Assets\unity 2d extras pack\2d-extras-master\Assets\Tilemap\Tiles\Rule Tile\ScriptTemplates\NewCustomRuleTile.cs.txt" />
     <None Include="Assets\unity 2d extras pack\2d-extras-master\Assets\Tilemap\Brushes\Tint Brush Smooth\Shaders\TintedTilemap.shader" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/DashPlatformer/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/Alien Game/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/DashPlatformer/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/Alien Game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/DashPlatformer/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/Alien Game/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/DashPlatformer/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/Randomia Gaming/Documents/Unity Projects/Alien Game/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.3f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

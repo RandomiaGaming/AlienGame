@@ -36,4 +36,8 @@ public class flyingEnemy : MonoBehaviour {
             }
         }
 	}
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        direction *= -1;
+    }
 }
