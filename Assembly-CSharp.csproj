@@ -71,6 +71,7 @@
     <Compile Include="Assets\Groundchecker.cs" />
     <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\LevelData.cs" />
     <Compile Include="Assets\Leveldot.cs" />
     <Compile Include="Assets\LevelManager.cs" />
     <Compile Include="Assets\levelplayer.cs" />

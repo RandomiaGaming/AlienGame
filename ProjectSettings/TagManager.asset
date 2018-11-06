@@ -6,6 +6,7 @@ TagManager:
   tags:
   - leveldot
   - LevelManager
+  - levels
   layers:
   - Default
   - TransparentFX

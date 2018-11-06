@@ -518,8 +518,46 @@ MonoBehaviour:
   - {fileID: 11400000, guid: a6768ba4da2250b4588a6ce6ec21bbc0, type: 2}
   - {fileID: 11400000, guid: b5f282857c1faf043a518b72b73afd5d, type: 2}
   - {fileID: 11400000, guid: d02a5fe376d6d364eaad7389097d0857, type: 2}
-  unlocked: {r: 1, g: 0.5882353, b: 0.8301619, a: 1}
-  locked: {r: 0.745283, g: 0, b: 0.72752583, a: 1}
+--- !u!1 &468983007
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 468983008}
+  - component: {fileID: 468983009}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: LevelManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &468983008
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 468983007}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.110542, y: 1.1089317, z: 0.12429517}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &468983009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 468983007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47486c7a8e89244ab6078eab34a2aa5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -750,7 +788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dot: {fileID: 0}
   canenter: 0
-  levelname: level1
+  levelname: level3
   nextlevels:
   - {fileID: 574218184}
 --- !u!212 &558870533
@@ -1087,7 +1125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dot: {fileID: 0}
   canenter: 0
-  levelname: shop
+  levelname: level4
   nextlevels:
   - {fileID: 1671434449}
 --- !u!212 &1116399351
@@ -1226,7 +1264,7 @@ GameObject:
   - component: {fileID: 1392467412}
   m_Layer: 0
   m_Name: levels
-  m_TagString: LevelManager
+  m_TagString: levels
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
