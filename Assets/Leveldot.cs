@@ -8,18 +8,18 @@ public class Leveldot : MonoBehaviour
     public Transform dot;
     public bool canenter;
     public string levelname;
-
+    public Leveldot[] nextlevels;
     // Use this for initialization
     void Start()
     {
         dot = transform;
         if (canenter)
         {
-            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("Player").GetComponent<levelplayer>().unlocked;
+            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>().unlocked;
         }
         else
         {
-            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("Player").GetComponent<levelplayer>().locked;
+            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>().locked;
         }
 
     }
@@ -28,11 +28,11 @@ public class Leveldot : MonoBehaviour
         canenter = value;
         if (canenter)
         {
-            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("Player").GetComponent<levelplayer>().unlocked;
+            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>().unlocked;
         }
         else
         {
-            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("Player").GetComponent<levelplayer>().locked;
+            GetComponent<SpriteRenderer>().color = GameObject.FindGameObjectWithTag("LevelManager").GetComponent<LevelManager>().locked;
         }
     }
     public void Enter()
@@ -42,5 +42,11 @@ public class Leveldot : MonoBehaviour
             SceneManager.LoadSceneAsync(levelname);
         }
     }
-
+    public void Complete()
+    {
+        foreach(Leveldot ld in nextlevels)
+        {
+            ld.SetCanEnter(true);
+        }
+    }
 }

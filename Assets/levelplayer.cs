@@ -9,8 +9,7 @@ public class levelplayer : MonoBehaviour {
     public Tilemap tilemap;
     public Tile[] paths;
     public Tile[] dots;
-    public Color unlocked;
-    public Color locked;
+    
 	// Use this for initialization
 	void Start () {
         an = GetComponent<Animator>();

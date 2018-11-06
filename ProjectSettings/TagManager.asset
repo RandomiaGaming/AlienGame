@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - leveldot
+  - LevelManager
   layers:
   - Default
   - TransparentFX
