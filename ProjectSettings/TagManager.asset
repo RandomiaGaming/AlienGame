@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - leveldot
+  - LevelManager
+  - levels
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: tilemap
+    uniqueID: 3194793545
+    locked: 0
+  - name: enemy
+    uniqueID: 3105749447
+    locked: 0
+  - name: player
+    uniqueID: 3240940519
+    locked: 0
+  - name: ui
+    uniqueID: 3832692263
+    locked: 0
